@@ -120,18 +120,7 @@ Ollama is planned to run the Llama 3.1 (8B) model locally and generate a respons
 Gmail is planned to send the generated response to the email address submitted by the student. The workflow will need checks to ensure the recipient and generated content are correct before sending.
 
 ### 6. Status tracking
-The workflow is intended to record whether a query has been received, processed, and responded to.
-
-## Safety, Privacy and Reliability
-
-Because the workflow handles student information and sends email:
-- Do not publish real student names, email addresses, phone numbers, or query content in this repository.
-- Use dummy data when sharing screenshots or example workflow executions.
-- Never upload API keys, OAuth credentials, access tokens, passwords, or exported credentials.
-- Keep secrets in n8n credentials or environment variables, not directly in workflow code.
-- Add a review or approval step before automatically emailing AI-generated responses, at least during testing.
-- Validate the recipient email address and handle model/API failures before sending.
-- Avoid sending sensitive personal information to an AI service unless there is a clear, approved reason and appropriate safeguards.
+The workflow is intended to record whether a query has been received, processed and responded to.
 
 ## Planned Repository Structure
 
@@ -152,22 +141,6 @@ ai-student-query-automation/
 └── .gitignore
 ```
 
-Only add workflow exports, screenshots and sample files after removing credentials and replacing real student information with dummy data.
-
-## Roadmap
-
-- [ ] Create the Google Form and connect its response sheet.
-- [ ] Configure the Google Sheets trigger or retrieval step in n8n.
-- [ ] Connect Airtable and define the query-tracking fields.
-- [ ] Build and test the JSON formatting step.
-- [ ] Install/configure Ollama and verify Llama 3.1 (8B) locally.
-- [ ] Connect the AI response-generation step.
-- [ ] Configure Gmail and test delivery using a test inbox.
-- [ ] Add validation, error handling and an approval step.
-- [ ] Test the complete workflow using dummy student records.
-- [ ] Add screenshots and a sanitised n8n workflow export.
-- [ ] Update this README to distinguish completed, tested and pending features.
-
 ## How to Run
 
 The workflow is still under development, so there is not yet a complete, verified end-to-end run procedure.
@@ -178,7 +151,7 @@ For now, the local n8n editor was accessed at:
 http://localhost:5678
 ```
 
-Once the workflow is complete, this section will include exact installation, configuration and execution instructions. Do not import an unreviewed workflow export or provide credentials through public files.
+Once the workflow is complete, this section will include exact installation, configuration and execution instructions.
 
 ## Learning Outcomes
 
