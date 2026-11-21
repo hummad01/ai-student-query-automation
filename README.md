@@ -194,7 +194,6 @@ Through this project, I aim to gain practical experience with:
 
 **Mohammad Hummad Siddiqui**
 
-..
 - GitHub: [hummad01](https://github.com/hummad01)
 - LinkedIn: [Mohammad Hummad Siddiqui](https://www.linkedin.com/in/mohammad-hummad-siddiqui-656b73306/)
 
