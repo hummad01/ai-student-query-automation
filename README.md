@@ -192,7 +192,6 @@ Through this project, I aim to gain practical experience with:
 
 ## Author
 
-..
 **Mohammad Hummad Siddiqui**
 
 - GitHub: [hummad01](https://github.com/hummad01)
